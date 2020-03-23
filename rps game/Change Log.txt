@@ -1,0 +1,16 @@
+This is a change log for the rock paper scissors game.
+
+v0.1
+
+The game simply works. You pick one out of three different options (rock, paper, scissors or quitting the game) and then
+the program proceeds to evaluate your choice and ends the game if 'q' is the chosen option. If any other option is chosen,
+the game compares your choice to a randomly chosen move (the move is chosen through the random module).
+
+Future changes:
+- Improve winning evaluation through functions that are going to be defined at the beginning of the program or another file 
+(latter option seems cleaner).
+- A way to track past games with a scoreboard such as TETRIS.
+- A way to continue the game from where you stopped last.
+
+Bugs:
+The sys module gives a traceback error. I gotta find a better (subtle?) way to end the game.
